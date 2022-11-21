@@ -1,0 +1,50 @@
+.container{
+    /* background-color: #090727; */
+    background-color: #542a5a;
+    font-family: monospace;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+}
+
+/* .weather{
+    border: 1px solid black;
+    padding: 25px;
+    border-radius: 20px;
+    max-width: 90%;
+    background-color: #a75ed4;
+    letter-spacing: 1px;
+} */
+
+.imgData{
+    margin: auto;
+    color: white;   
+    background-color: #592BA8;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 350px;
+    text-align: center;
+    font-size: 18px;
+    filter: drop-shadow(0 0 0.75rem #090727);
+    /* filter: drop-shadow(0 -6mm 4mm ); */
+    border: 4px solid  #090727;
+}
+
+.font{
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+.details{
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+.wind{
+    width: 35px;
+    margin-left:-37px ;
+}

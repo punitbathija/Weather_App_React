@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.27564cd6.css",
+    "main.js": "/static/js/main.b93fcb50.js",
+    "static/js/787.d62d1c65.chunk.js": "/static/js/787.d62d1c65.chunk.js",
+    "static/media/wind.svg": "/static/media/wind.f89d281edd4ece57ea33e1510039a524.svg",
+    "static/media/thermometer.svg": "/static/media/thermometer.a469e59ad8cfb5ce6d673cac42ae4b2b.svg",
+    "index.html": "/index.html",
+    "main.27564cd6.css.map": "/static/css/main.27564cd6.css.map",
+    "main.b93fcb50.js.map": "/static/js/main.b93fcb50.js.map",
+    "787.d62d1c65.chunk.js.map": "/static/js/787.d62d1c65.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27564cd6.css",
+    "static/js/main.b93fcb50.js"
+  ]
+}

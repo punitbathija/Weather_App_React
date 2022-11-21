@@ -1,0 +1,32 @@
+.bod{
+    text-align: left;
+    color: white;   
+    background-color: #592BA8;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 18px;
+    filter: drop-shadow(0 0 0.75rem #090727);
+    /* filter: drop-shadow(0 -6mm 4mm ); */
+    border: 4px solid  #090727;
+}
+
+.icon-small{
+    max-width: 110px;
+
+}
+
+.title{
+    text-align: center;
+    font-size: 25px;
+    color: azure;
+}
+
+.forecastDetails{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.box{
+    text-align: center;
+}

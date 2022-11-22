@@ -5,6 +5,7 @@ import Search from "./components/Search";
 import { WEATHER_API_URL, WEATHER_API_KEY } from "./api";
 import { useState } from "react";
 import Forecast from "./components/Forecast/Forecast";
+import main from "./main.png";
 
 function App() {
   const [currentWeather, setCurrentWeather] = useState(null);
@@ -33,6 +34,14 @@ function App() {
     <div className="container py-2">
       <Navbar />
       <Search onSearchChange={handleOnSearchChange} />
+      {!currentWeather && (
+        <img src={main} alt=" illustration" className="main" />
+      )}
+      {!currentWeather && (
+        <h3 className="para">
+          Search in the field above to see something intresting...
+        </h3>
+      )}
       {currentWeather && <CurrentWeather data={currentWeather} />}
       {forecastWeather && <Forecast data={forecastWeather} />}
     </div>

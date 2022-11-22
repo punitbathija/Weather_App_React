@@ -5,7 +5,6 @@ import humidity from "./thermometer.svg";
 function CurrentWeather({ data }) {
   return (
     <div className="container my-5 ">
-      {/* <div className="weather container"> */}
       <div className="imgData">
         <h3>
           <b>{data.city}</b>
@@ -20,8 +19,6 @@ function CurrentWeather({ data }) {
         </p>
         <h4>{data.weather[0].description}</h4>
         <div className="details">
-          <small>Details:</small>
-          <br />
           <hr />
           <small>Fells like {data.main.feels_like}</small>
           <br />

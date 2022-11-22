@@ -46,16 +46,16 @@ const Forecast = ({ data }) => {
                       <p>{item.weather[0].description}</p>
                     </label>
                     <label>
-                      <p>Temprature: {item.main.temp}°C</p>
+                      <p>Temperature: {item.main.temp}°C</p>
                     </label>
                     <label>
                       <p>Humidity: {item.main.humidity}%</p>
                     </label>
                     <label>
-                      <p>Min Temprature: {item.main.temp_min}°C</p>
+                      <p>Min Temperature: {item.main.temp_min}°C</p>
                     </label>
                     <label>
-                      <p>Max Temprature: {item.main.temp_max}°C</p>
+                      <p>Max Temperature: {item.main.temp_max}°C</p>
                     </label>
                   </div>
                   <hr />

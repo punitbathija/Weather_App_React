@@ -6,7 +6,7 @@ function Navbar() {
       <nav className="navbar bg-dark">
         <div className="container-fluid">
           <a className="navbar-brand text-white" href="/">
-            SoupWeather🥣🌤️
+            WeatherSoup🥣🌤️
           </a>
         </div>
       </nav>

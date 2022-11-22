@@ -8,6 +8,7 @@
     filter: drop-shadow(0 0 0.75rem #090727);
     /* filter: drop-shadow(0 -6mm 4mm ); */
     border: 4px solid  #090727;
+    max-width: 500px;
 }
 
 .icon-small{

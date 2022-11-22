@@ -31,7 +31,7 @@ function App() {
     console.log(forecastWeather);
   };
   return (
-    <div className="container py-2">
+    <div className="con container py-2">
       <Navbar />
       <Search onSearchChange={handleOnSearchChange} />
       {!currentWeather && (

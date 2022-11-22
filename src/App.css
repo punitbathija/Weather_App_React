@@ -3,14 +3,21 @@
 }
 
 .main{
-  opacity: 0.5;
+  opacity: 0.6;
   max-width: 370px;
+  padding-right: 39px;
 }
 
 .para{
   color: whitesmoke;
-  opacity: 0.5;
+  opacity: 0.7;
   font-size: 25px;
-  padding: 75px;
-  width: 350px;
+  padding: 50px;
+}
+
+.container{
+  text-align: center;
+  width: 100vw; 
+  overflow-x: hidden;
+  height: 100vh;
 }
